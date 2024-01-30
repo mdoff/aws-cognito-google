@@ -1,30 +1,5 @@
-# React + TypeScript + Vite
+# AWS Cognito with Google login
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Explore our demo application showcasing the seamless integration of AWS Cognito with social login using Google OpenID. In this demonstration, we've implemented user authentication, allowing users to sign in using their Google credentials. Leveraging AWS Cognito's capabilities, the application ensures secure and streamlined access.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+The demo provides a practical example of how AWS Cognito facilitates social login, offering a foundation for building authentication features in your applications. You can adapt and extend this example to incorporate additional functionalities or integrate with other AWS services, tailoring it to your specific requirements. Check out the live demo to experience the simplicity and effectiveness of AWS Cognito in action.
